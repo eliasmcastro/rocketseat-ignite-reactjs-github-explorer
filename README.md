@@ -23,8 +23,8 @@ git clone https://github.com/eliasmcastro/rocketseat-ignite-reactjs-github-explo
 
 ### Requisitos
 
-- [Node.js](https://nodejs.org)
-- [Yarn](https://yarnpkg.com)
+- [Node.js](https://nodejs.org) na versão 20.16.0
+- [Yarn](https://yarnpkg.com) na versão 1.22.5
 
 ### Passos para a execução
 
@@ -51,3 +51,17 @@ A aplicação começará a ser executada em http://localhost:3333
 - `yarn init -y` cria o arquivo package.json
 - `yarn add react` para instalar o ReactJS
 - `yarn add react-dom` para instalar o ReactDOM
+
+### Configurando Babel
+
+- O Babel é uma ferramenta de transpilação — ou seja, ela converte código escrito em uma versão mais recente do JavaScript (como ES6, ES7, etc.) para uma versão mais antiga e amplamente compatível com a maioria dos navegadores
+- `yarn add @babel/core @babel/cli -D` para instalar o babel core e cli
+- `yarn add @babel/preset-env @babel/preset-react -D` para instalar o babel preset-env e preset-react
+- `yarn add babel-loader -D` para instalar o babel-loader (integração entre o babel e o webpack)
+
+### Configurando Webpack
+
+- O Webpack é uma ferramenta de empacotamento de módulos e ele tem como principal objetivo pegar diferentes arquivos de recursos (como JavaScript, CSS, imagens, fontes, etc.) e empacotá-los em um ou mais arquivos de saída (bundles), para que possam ser carregados de maneira eficiente pelo navegador.
+- `yarn add webpack webpack-cli -D` para instalar o webpack e webpack-cli
+- `yarn add html-webpack-plugin -D` para instalar o html-webpack-plugin
+- `yarn webpack` para executar o webpack
