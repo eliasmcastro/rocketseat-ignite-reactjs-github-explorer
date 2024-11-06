@@ -64,4 +64,6 @@ A aplicação começará a ser executada em http://localhost:3333
 - O Webpack é uma ferramenta de empacotamento de módulos e ele tem como principal objetivo pegar diferentes arquivos de recursos (como JavaScript, CSS, imagens, fontes, etc.) e empacotá-los em um ou mais arquivos de saída (bundles), para que possam ser carregados de maneira eficiente pelo navegador.
 - `yarn add webpack webpack-cli -D` para instalar o webpack e webpack-cli
 - `yarn add html-webpack-plugin -D` para instalar o html-webpack-plugin
-- `yarn webpack` para executar o webpack
+- `yarn webpack` para executar o Webpack
+- `yarn add webpack-dev-server -D` para instalar o webpack-dev-server
+- `yarn webpack serve` para iniciar o Webpack Dev Server, que fará a aplicação rodar em `http://localhost:8080`
