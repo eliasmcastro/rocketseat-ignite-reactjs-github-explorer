@@ -42,7 +42,7 @@ Iniciar a aplicação
 yarn dev
 ```
 
-A aplicação começará a ser executada em http://localhost:3333
+A aplicação começará a ser executada em http://localhost:8080
 
 ## Anotações
 
@@ -67,3 +67,7 @@ A aplicação começará a ser executada em http://localhost:3333
 - `yarn webpack` para executar o Webpack
 - `yarn add webpack-dev-server -D` para instalar o webpack-dev-server
 - `yarn webpack serve` para iniciar o Webpack Dev Server, que fará a aplicação rodar em `http://localhost:8080`
+
+### Variáveis de Ambiente
+
+- `yarn add cross-env -D` para instalar o cross-env
