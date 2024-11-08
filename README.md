@@ -58,7 +58,6 @@ A aplicação começará a ser executada em http://localhost:8080
 - `yarn add @babel/core @babel/cli -D` para instalar o babel core e cli
 - `yarn add @babel/preset-env @babel/preset-react -D` para instalar o babel preset-env e preset-react
 - `yarn add babel-loader -D` para instalar o babel-loader (integração entre o babel e o webpack)
-- `yarn add style-loader css-loader -D` para instalar o style-loader e css-loader 
 
 ### Configurando Webpack
 
@@ -72,3 +71,9 @@ A aplicação começará a ser executada em http://localhost:8080
 ### Variáveis de Ambiente
 
 - `yarn add cross-env -D` para instalar o cross-env
+
+### CSS
+
+- `yarn add style-loader css-loader -D` para instalar o style-loader e css-loader
+- `yarn add node-sass -D` para instalar o node-sass
+- `yarn add sass-loader -D` para instalar o sass-loader
