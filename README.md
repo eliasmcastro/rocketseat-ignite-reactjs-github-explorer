@@ -13,6 +13,12 @@
   <a href="#anotações">Anotações</a>
 </p>
 
+<p align="center">Front-end</p>
+
+<p align="center">
+  <img src=".github/frontend.png" width="90%">
+</p>
+
 ## Como executar o projeto
 
 ### Clonar este repositório
@@ -77,3 +83,7 @@ A aplicação começará a ser executada em http://localhost:8080
 - `yarn add style-loader css-loader -D` para instalar o style-loader e css-loader
 - `yarn add node-sass -D` para instalar o node-sass
 - `yarn add sass-loader -D` para instalar o sass-loader
+
+### React Refresh Webpack Plugin
+
+- `yarn add @pmmmwh/react-refresh-webpack-plugin react-refresh -D` para instalar o React Refresh Webpack Plugin
