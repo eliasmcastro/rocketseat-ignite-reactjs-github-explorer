@@ -113,3 +113,7 @@ A aplicação começará a ser executada em http://localhost:8080
 
 - `yarn add @babel/preset-typescript -D` para instalar o preset-typescript (permite que você use TypeScript em seu projeto)
 - `yarn add @types/react-dom -D` para instalar a definição de tipo da biblioteca react-dom
+
+### Utilizando React DevTools
+
+- O React DevTools é uma ferramenta de depuração (debugging) disponível como extensão para os navegadores Google Chrome e Mozilla Firefox
